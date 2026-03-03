@@ -1,0 +1,36 @@
+---
+title: FAQ
+description: Common questions about Spotify Stats
+---
+
+# FAQ
+
+## How much of my listening history can I see?
+
+We show your **last 50 played tracks** from Spotify's API. Spotify does not provide access to older history. The Leaderboard uses Spotify's own top-items data, which covers longer time periods (4 weeks, 6 months, all time).
+
+## Is my data stored?
+
+We only store what's needed for authentication (your Spotify account link and session). We do **not** store your listening history. All track and artist data is fetched live from Spotify when you load a page.
+
+## How often is the data updated?
+
+Every time you load a page, we fetch fresh data from Spotify. There's no caching of your listening history.
+
+## Can I revoke access?
+
+Yes. Go to [Spotify Account Apps](https://www.spotify.com/account/apps/) and remove Spotify Stats. You can also sign out from the Settings page in the app.
+
+## Why do I need to sign in with Spotify?
+
+We need to authenticate with Spotify to read your listening data. We use OAuth — you sign in on Spotify's site, and we never see your password.
+
+## Does this work with Spotify Free?
+
+Yes. Spotify Stats works with both Free and Premium accounts. The data we use (recently played, top items) is available for all Spotify users.
+
+## I see "unable to get user info" after signing in — why?
+
+This error can occur when Spotify returns limited or no profile data during sign-in. **If your Spotify profile has strict privacy settings** (e.g., private profile, hidden listening activity, or restricted profile visibility), Spotify may not provide the basic profile info we need to complete your account setup.
+
+**To fix it:** In Spotify, go to **Settings → Privacy and social** and ensure your profile allows sharing basic info (display name, etc.). You can tighten privacy again after signing in — we only need it once to create your account.

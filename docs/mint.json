@@ -1,0 +1,49 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Spotify Stats",
+  "colors": {
+    "primary": "#1DB954",
+    "light": "#1ed760",
+    "dark": "#1DB954"
+  },
+  "topbarLinks": [],
+  "topbarCtaButton": {
+    "name": "Open App",
+    "url": "/"
+  },
+  "tabs": [
+    {
+      "name": "Guide",
+      "url": "introduction"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Open App",
+      "icon": "arrow-right",
+      "url": "/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": ["introduction", "getting-started"]
+    },
+    {
+      "group": "Features",
+      "pages": [
+        "features/dashboard",
+        "features/leaderboard",
+        "features/history"
+      ]
+    },
+    {
+      "group": "Help",
+      "pages": ["faq"]
+    }
+  ],
+  "feedback": {
+    "thumbsRating": false,
+    "suggestEdit": false
+  }
+}
